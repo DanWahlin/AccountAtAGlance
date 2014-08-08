@@ -39,4 +39,4 @@ The initial version of this application was created by:
 * John Papa
 * Corey Schuman
 
-While the code has changed a lot since the original version I appreciate the initial contributions from these awesome devs!
+While the code has changed a lot since the original version these devs played an important role in the application!
