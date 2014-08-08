@@ -26,9 +26,9 @@ An example of the application is shown next:
 
 Visual Studio 2013
 
-## Getting Started:
+## Getting Started
 
-Open the AccountAtAGlance.sln file in Visual Studio 2013 or higher.
+Open the AccountAtAGlance.sln file in Visual Studio 2013 or higher. Press F5 to compile and run the application.
 
 ## Credits
 
