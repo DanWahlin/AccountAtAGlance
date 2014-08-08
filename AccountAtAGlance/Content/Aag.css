@@ -1,0 +1,52 @@
+﻿#main {height: 100%; width: 100%}
+#container {width: 1280px; margin: auto; border: 0px solid #fff; }
+#header { padding-bottom: 5px; height:70px; width: 1200px; margin: auto; position:relative;}
+#header input[type=button] {float: right; margin-top: 25px; }
+
+#content { position:relative; margin: auto; height:625px; width: 1200px;  overflow: hidden; display:none;}
+
+.tile { text-align:center; margin:2px; position: absolute; background-color: #ffffff}
+
+#left { float: left; border: 1px solid #444;}
+#right { float: right; border: 1px solid #333;}
+
+.scroller { height: 175px; margin: 10px 3px 3px; width: 20px; }
+.scroller:hover {cursor: pointer}
+
+#main
+{     
+   display: block;
+   position:absolute;  
+   /*-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr='#404042', endColorstr='#050505')";*/
+  /* background: url('http://localhost:3709/svg-gradient.svg');*/
+}
+
+body
+{    
+    font-family: Verdana, Tahoma, Arial, "Helvetica Neue", Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
+    color: #696969;
+}
+
+#main
+{
+    background-color: #292828;
+    background-image: url(Images/financial_screen_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        color-stop(0.08, rgb(64,64,66)),
+        color-stop(0.54, rgb(5,5,5))
+    );
+    
+    background-image: -moz-linear-gradient(
+        left center,
+        rgb(64,64,66) 8%,
+        rgb(5,5,5) 54%
+    );*/   
+}
+

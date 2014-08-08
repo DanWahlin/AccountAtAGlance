@@ -1,0 +1,37 @@
+﻿@using System.Web.Optimization
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")        
+    @Scripts.Render("~/bundles/modernizr")   
+
+</head>
+<body>
+    <!-- Prompt IE users to install HTML5 compatible browser or Chrome Frame -->
+    <!--[if lt IE 9]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+    <div id="main">
+        @RenderBody()
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    <script>window.jQuery || document.write('<script src="Scripts/jquery-2.1.1.min.js"><\/script>')</script>    
+    @Scripts.Render("~/bundles/jqueryui")
+    @Scripts.Render("~/bundles/plugins")
+    @Scripts.Render("~/bundles/custom")
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            sceneStateManager.init('Z485739881');
+        });
+     </script>
+
+</body>
+</html>

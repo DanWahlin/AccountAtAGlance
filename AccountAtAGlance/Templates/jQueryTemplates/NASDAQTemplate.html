@@ -1,0 +1,48 @@
+﻿<script id="NASDAQTemplate_Small" type="text/x-jquery-tmpl">
+    <div class="content">
+        <header>
+            <div class="Left">NASDAQ</div>
+            <div class="MarketQuoteLast Right">${ NASDAQ.Last }</div>
+        </header>
+        <section>
+            <div class="MarketQuoteDetails">        
+                {{tmpl '#NASDAQQuoteDetails_Template' }}
+            </div>
+        </section>
+    </div>
+</script>
+
+<script id="NASDAQTemplate_Medium" type="text/x-jquery-tmpl">
+    <div class="content">
+        <header>
+            <div class="Left">NASDAQ</div>
+            <div class="MarketQuoteLast Right">${ NASDAQ.Last }</div>
+        </header>
+        <section>
+            <div class="MarketQuoteDetails">        
+                {{tmpl '#NASDAQQuoteDetails_Template' }}
+            </div>
+            <div id="NASDAQCanvas" class="canvas"></div>
+        </section>
+    </div>
+</script>
+
+<script id="NASDAQTemplate_Large" type="text/x-jquery-tmpl">
+    <div class="content">
+        <header>
+            <div class="Left">NASDAQ</div>
+            <div class="MarketQuoteLast Right">${ NASDAQ.Last }</div>
+        </header>
+        <section>
+            <div class="MarketQuoteDetails">        
+                {{tmpl '#NASDAQQuoteDetails_Template' }}            
+            </div>
+            <div id="NASDAQCanvas" class="canvas"></div>
+        </section>
+    </div>
+</script>
+
+<script id="NASDAQQuoteDetails_Template" type="text/x-jquery-tmpl">
+    <span class="MarketQuoteChange {{if parseFloat(NASDAQ.Change) > 0}}Positive{{else}}Negative{{/if}}">{{if parseFloat(NASDAQ.Change) > 0}}+{{/if}}${ NASDAQ.Change }</span>&nbsp;&nbsp;
+    <span class="MarketQuotePercentChange {{if parseFloat(NASDAQ.PercentChange) > 0}}Positive{{else}}Negative{{/if}}">${ NASDAQ.PercentChange }%</span>
+</script>

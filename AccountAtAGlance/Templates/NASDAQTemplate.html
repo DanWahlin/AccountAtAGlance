@@ -1,0 +1,48 @@
+﻿<script id="NASDAQTemplate_Small" type="text/x-handlebars-template">
+    <div class="content">
+        <header>
+            <div class="Left">NASDAQ</div>
+            <div class="MarketQuoteLast Right">{{ NASDAQ.Last }}</div>
+        </header>
+        <section>
+            <div class="MarketQuoteDetails">        
+                {{> NASDAQTemplate_Partial }}
+            </div>
+        </section>
+    </div>
+</script>
+
+<script id="NASDAQTemplate_Medium" type="text/x-handlebars-template">
+    <div class="content">
+        <header>
+            <div class="Left">NASDAQ</div>
+            <div class="MarketQuoteLast Right">{{NASDAQ.Last}}</div>
+        </header>
+        <section>
+            <div class="MarketQuoteDetails">        
+                {{> NASDAQTemplate_Partial}}
+            </div>
+            <div id="NASDAQCanvas" class="canvas"></div>
+        </section>
+    </div>
+</script>
+
+<script id="NASDAQTemplate_Large" type="text/x-handlebars-template">
+    <div class="content">
+        <header>
+            <div class="Left">NASDAQ</div>
+            <div class="MarketQuoteLast Right">{{NASDAQ.Last}}</div>
+        </header>
+        <section>
+            <div class="MarketQuoteDetails">        
+                {{> NASDAQTemplate_Partial}}            
+            </div>
+            <div id="NASDAQCanvas" class="canvas"></div>
+        </section>
+    </div>
+</script>
+
+<script id="NASDAQTemplate_Partial" type="text/x-handlebars-template">
+    <span class="MarketQuoteChange {{getChangeCSSClass NASDAQ.Change}}">{{addPlus NASDAQ.Change}}{{ NASDAQ.Change }}</span>&nbsp;&nbsp;
+    <span class="MarketQuotePercentChange {{getChangeCSSClass NASDAQ.PercentChange}}">{{ NASDAQ.PercentChange }}%</span>
+</script>

@@ -1,0 +1,123 @@
+﻿
+
+.tile { margin:2px; position: absolute; background-color: #ffffff; border: 1px solid #ccc; overflow: hidden;
+        -moz-box-shadow: 3px 3px 6px #333; -webkit-box-shadow: 3px 3px 6px #333; box-shadow: 3px 3px 6px #333; display:none; }  
+
+.tile .content { margin: 5px 10px; overflow: hidden; color:#333; }
+.tile:hover { box-shadow: 0 0 15px #888; -webkit-box-shadow: 0 0 15px #888; -moz-box-shadow: 0 0 15px #888; -o-box-shadow: 0 0 15px #888;}        
+.tile:hover { -ms-transform: scale(1.02, 1.02) }        
+.tile header { font-size: 24px; font-weight:bold; color:#333; width:100%; float:left; padding: 0px 0px 5px 0px; }      
+.tile header:hover { cursor:move; }
+.tile header span { float: left; text-transform: uppercase; }  
+.tile header span:nth-child(2) { font-size: 9pt; float:right;  margin: 4px 8px 2px 0px; }        
+        
+.tile section { margin-top:35px; }
+
+.tile footer{ }
+.tile footer span { font-weight:bold; }
+
+.tile .stickyfooter { clear: both; position:absolute; bottom: 0px; padding: 5px 5px; width: 100%; }
+.tile .stickyfooter .Right {padding-right: 20px;}
+.tile .smallblock { background-color: #dedede;  }
+        
+
+#AccountSummaryPositions
+{
+    display:none;
+}
+
+#AccountPositionsTable
+{
+    width:100%;
+    float: left;
+    margin-top: 0px;
+}
+
+#AccountPositionsTable thead tr, th
+{
+    color: #086492;    
+    cursor: pointer;
+    text-align:left;
+    font-size:.85em;
+    white-space:nowrap;
+}
+
+#AccountPositionsTable tr
+{
+    font-size:.85em;
+    text-align:left;
+    vertical-align: top;
+    white-space:nowrap;
+}
+
+#AccountPositionsTable tbody tr:hover
+{
+    background-color: #c5dfe8;
+}
+
+.Positive { color: #3fc440;}
+.Negative { color: #BB3132; }
+
+#QuoteDiv
+{
+    margin-top:15px;    
+}
+
+#QuoteCanvas
+{
+    margin-top:5px;
+}
+
+#QuoteCompany
+{
+    font-size:12pt;
+    font-weight:bold;
+}
+
+#QuoteLast 
+{
+    font-size:18pt;
+    font-weight:bold;
+}
+
+#QuoteChange, #QuotePercentChange
+{
+    font-size:12pt;
+    font-weight:bold;
+}
+
+#QuoteDetailsDiv
+{
+    margin-top:2px;
+    text-align:left;
+    margin-top:10px;
+}
+
+#VideoPlayerDiv
+{
+    cursor: pointer;
+    padding-top:20px;
+}
+
+
+/* jQuery UI overrides */
+input.ui-button {
+    padding : .3em .8em;
+    background:#00324C;
+    color:White;
+    font-size:10pt;
+    border:0px;
+    text-transform: uppercase;
+    font-family: "atrament-web-1" , "atrament-web-2";
+    font-size: 11pt;
+    letter-spacing: 0.12em;
+    border-radius: 0px;
+}
+
+.canvas {float:left;}
+
+               
+.MarketQuoteLast  { color: #336190;font-size: 17pt; font-family: "news-gothic-std-1","news-gothic-std-2",sans-serif; font-weight:normal;}
+.MarketQuoteDetails { clear: both; float: left; padding: 7px 0 3px 0; margin:0px; text-align: center; vertical-align: middle; width: 100%; }
+.MarketQuoteChange { font-size:17pt; }
+.MarketQuotePercentChange {font-size:17pt;}

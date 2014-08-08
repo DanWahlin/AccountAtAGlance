@@ -1,0 +1,55 @@
+﻿<script id="DOWTemplate_Small" type="text/x-jquery-tmpl">
+    <div class="content">
+        <header>
+            <div class="Left">DOW</div>
+            <div class="MarketQuoteLast Right">${ DOW.Last }</div>
+        </header>
+        <section>
+            <div class="MarketQuoteDetails">    
+                <div>    
+                    {{tmpl '#DOWQuoteDetails_Template' }}
+                </div>
+            </div>
+        </section>
+    </div>
+</script>
+
+<script id="DOWTemplate_Medium" type="text/x-jquery-tmpl">
+    <div class="content">
+        <header>
+            <div class="Left">DOW</div>
+            <div class="MarketQuoteLast Right">${ DOW.Last }</div>
+        </header>
+        <section>
+            <div class="MarketQuoteDetails">    
+                <div>    
+                    {{tmpl '#DOWQuoteDetails_Template' }}                
+                </div>
+            </div>
+            <div id="DOWCanvas" class="canvas"></div>
+        </section>
+    </div>
+</script>
+
+<script id="DOWTemplate_Large" type="text/x-jquery-tmpl">
+    <div class="content">
+        <header>
+            <div class="Left">DOW</div>
+            <div class="MarketQuoteLast Right">${ DOW.Last }</div>
+        </header>
+        <section>
+            <div class="MarketQuoteDetails">    
+                <div>    
+                    {{tmpl '#DOWQuoteDetails_Template' }}
+                </div>
+            </div>
+            <div id="DOWCanvas" class="canvas"></div>
+        </section>
+    </div>
+</script>
+
+<script id="DOWQuoteDetails_Template" type="text/x-jquery-tmpl">
+    <span class="MarketQuoteChange {{if parseFloat(DOW.Change) > 0}}Positive{{else}}Negative{{/if}}">{{if parseFloat(DOW.Change) > 0}}+{{/if}}${ DOW.Change }</span>&nbsp;&nbsp;
+    <span class="MarketQuotePercentChange {{if parseFloat(DOW.PercentChange) > 0}}Positive{{else}}Negative{{/if}}">${ DOW.PercentChange }%</span>
+</script>
+

@@ -1,0 +1,71 @@
+﻿<script id="AccountDetailsTemplate_Small" type="text/x-jquery-tmpl">
+     <div class="content">
+        <header>
+            <span>ACCOUNT TOTAL</span>
+        </header>
+        <section>
+            <span class="Currency Positive" style="font-size: 20pt">${Total}</span>
+        </section>
+    </div>
+</script>
+
+<script id="AccountDetailsTemplate_Medium" type="text/x-jquery-tmpl">
+    <div class="content">
+        <header>
+           <span>ACCOUNT DETAILS - ${AccountTitle}</span>
+        </header>
+        <section style="padding-top:10px;">
+            {{tmpl '#AccountDetailsTemplate_Base'}}
+        </section>
+    </div>
+    <div class="stickyfooter" style="background-color: #fbcccc;">       
+        <div class="Left Bold">Total:</div>
+        <div class="Right">
+            <span class="Currency">${Total}</span>
+        </div>
+        <div class="Clear" />           
+    </div> 
+</script>
+
+<script id="AccountDetailsTemplate_Large" type="text/x-jquery-tmpl">
+     <div class="content">
+        <header>
+            <span>ACCOUNT DETAILS - ${AccountTitle}</span>
+        </header>
+        <section style="padding-top:5px;">
+            {{tmpl '#AccountDetailsTemplate_Base'}}
+            <div style="margin-top:0px;">
+                <div id="AccountPositionsSVG"  />
+            </div>
+        </section>
+    </div>
+    <div class="stickyfooter" style="background-color: #fbcccc; ">       
+        <div class="Left Bold">Total:</div>
+        <div class="Right">
+            <span class="Currency">${Total}</span>
+        </div>
+        <div class="Clear" />           
+    </div> 
+</script>
+
+<script id="AccountDetailsTemplate_Base" type="text/x-jquery-tmpl">
+    <div class="Left">Cash</div> 
+    <div class="Right">
+        <span class="Currency">${CashTotal}</span>
+    </div>
+    <div class="Clear" />
+
+    {{if !IsRetirement}}
+        <div class="Left" style="margin-top:6px;">Available Margin</div> 
+        <div class="Right" style="margin-top:6px;">
+            <span class="Currency">${MarginBalance}</span>
+        </div>
+        <div class="Clear" />
+    {{/if}}
+
+    <div class="Left" style="margin-top:6px;">Positions</div> 
+    <div class="Right" style="margin-top:6px;">
+        <span class="Currency">${PositionsTotal}</span>
+    </div>
+    <div class="Clear" />
+</script>

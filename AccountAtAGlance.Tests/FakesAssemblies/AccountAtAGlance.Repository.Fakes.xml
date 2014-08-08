@@ -1,0 +1,1346 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AccountAtAGlance.Repository.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext">
+            <summary>Shim type of AccountAtAGlance.Repository.AccountAtAGlanceContext</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.#ctor(AccountAtAGlance.Repository.AccountAtAGlanceContext)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.Bind(AccountAtAGlance.Repository.IDisposedTracker)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.Bind(System.Data.Entity.Infrastructure.IObjectContextAdapter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.BrokerageAccountsGet">
+            <summary>Sets the shim of AccountAtAGlanceContext.get_BrokerageAccounts()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.BrokerageAccountsSetDbSetOfBrokerageAccount">
+            <summary>Sets the shim of AccountAtAGlanceContext.set_BrokerageAccounts(DbSet`1&lt;BrokerageAccount&gt; value)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.Constructor">
+            <summary>Sets the shim of AccountAtAGlanceContext.AccountAtAGlanceContext()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.CustomersGet">
+            <summary>Sets the shim of AccountAtAGlanceContext.get_Customers()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.CustomersSetDbSetOfCustomer">
+            <summary>Sets the shim of AccountAtAGlanceContext.set_Customers(DbSet`1&lt;Customer&gt; value)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.DeleteAccounts">
+            <summary>Sets the shim of AccountAtAGlanceContext.DeleteAccounts()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.DeleteSecuritiesAndExchanges">
+            <summary>Sets the shim of AccountAtAGlanceContext.DeleteSecuritiesAndExchanges()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.DisposeBoolean">
+            <summary>Sets the shim of AccountAtAGlanceContext.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.ExchangesGet">
+            <summary>Sets the shim of AccountAtAGlanceContext.get_Exchanges()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.ExchangesSetDbSetOfExchange">
+            <summary>Sets the shim of AccountAtAGlanceContext.set_Exchanges(DbSet`1&lt;Exchange&gt; value)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.IsDisposedGet">
+            <summary>Sets the shim of AccountAtAGlanceContext.get_IsDisposed()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.IsDisposedSetBoolean">
+            <summary>Sets the shim of AccountAtAGlanceContext.set_IsDisposed(Boolean value)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.MarketIndexesGet">
+            <summary>Sets the shim of AccountAtAGlanceContext.get_MarketIndexes()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.MarketIndexesSetDbSetOfMarketIndex">
+            <summary>Sets the shim of AccountAtAGlanceContext.set_MarketIndexes(DbSet`1&lt;MarketIndex&gt; value)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.MutualFundsGet">
+            <summary>Sets the shim of AccountAtAGlanceContext.get_MutualFunds()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.MutualFundsSetDbSetOfMutualFund">
+            <summary>Sets the shim of AccountAtAGlanceContext.set_MutualFunds(DbSet`1&lt;MutualFund&gt; value)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.OnModelCreatingDbModelBuilder">
+            <summary>Sets the shim of AccountAtAGlanceContext.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.OrderTypesGet">
+            <summary>Sets the shim of AccountAtAGlanceContext.get_OrderTypes()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.OrderTypesSetDbSetOfOrderType">
+            <summary>Sets the shim of AccountAtAGlanceContext.set_OrderTypes(DbSet`1&lt;OrderType&gt; value)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.OrdersGet">
+            <summary>Sets the shim of AccountAtAGlanceContext.get_Orders()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.OrdersSetDbSetOfOrder">
+            <summary>Sets the shim of AccountAtAGlanceContext.set_Orders(DbSet`1&lt;Order&gt; value)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.PositionsGet">
+            <summary>Sets the shim of AccountAtAGlanceContext.get_Positions()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.PositionsSetDbSetOfPosition">
+            <summary>Sets the shim of AccountAtAGlanceContext.set_Positions(DbSet`1&lt;Position&gt; value)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.SecuritiesGet">
+            <summary>Sets the shim of AccountAtAGlanceContext.get_Securities()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.SecuritiesSetDbSetOfSecurity">
+            <summary>Sets the shim of AccountAtAGlanceContext.set_Securities(DbSet`1&lt;Security&gt; value)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.StocksGet">
+            <summary>Sets the shim of AccountAtAGlanceContext.get_Stocks()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.StocksSetDbSetOfStock">
+            <summary>Sets the shim of AccountAtAGlanceContext.set_Stocks(DbSet`1&lt;Stock&gt; value)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.WatchListsGet">
+            <summary>Sets the shim of AccountAtAGlanceContext.get_WatchLists()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.WatchListsSetDbSetOfWatchList">
+            <summary>Sets the shim of AccountAtAGlanceContext.set_WatchLists(DbSet`1&lt;WatchList&gt; value)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext._OnModelCreatingb__0ManyToManyAssociationMappingConfiguration">
+            <summary>Sets the shim of AccountAtAGlanceContext.&lt;OnModelCreating&gt;b__0(ManyToManyAssociationMappingConfiguration map)</summary>
+        </member>
+        <member name="T:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.AllInstances.BrokerageAccountsGet">
+            <summary>Sets the shim of AccountAtAGlanceContext.get_BrokerageAccounts()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.AllInstances.BrokerageAccountsSetDbSetOfBrokerageAccount">
+            <summary>Sets the shim of AccountAtAGlanceContext.set_BrokerageAccounts(DbSet`1&lt;BrokerageAccount&gt; value)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.AllInstances.CustomersGet">
+            <summary>Sets the shim of AccountAtAGlanceContext.get_Customers()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.AllInstances.CustomersSetDbSetOfCustomer">
+            <summary>Sets the shim of AccountAtAGlanceContext.set_Customers(DbSet`1&lt;Customer&gt; value)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.AllInstances.DeleteAccounts">
+            <summary>Sets the shim of AccountAtAGlanceContext.DeleteAccounts()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.AllInstances.DeleteSecuritiesAndExchanges">
+            <summary>Sets the shim of AccountAtAGlanceContext.DeleteSecuritiesAndExchanges()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.AllInstances.DisposeBoolean">
+            <summary>Sets the shim of AccountAtAGlanceContext.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.AllInstances.ExchangesGet">
+            <summary>Sets the shim of AccountAtAGlanceContext.get_Exchanges()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.AllInstances.ExchangesSetDbSetOfExchange">
+            <summary>Sets the shim of AccountAtAGlanceContext.set_Exchanges(DbSet`1&lt;Exchange&gt; value)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.AllInstances.IsDisposedGet">
+            <summary>Sets the shim of AccountAtAGlanceContext.get_IsDisposed()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.AllInstances.IsDisposedSetBoolean">
+            <summary>Sets the shim of AccountAtAGlanceContext.set_IsDisposed(Boolean value)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.AllInstances.MarketIndexesGet">
+            <summary>Sets the shim of AccountAtAGlanceContext.get_MarketIndexes()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.AllInstances.MarketIndexesSetDbSetOfMarketIndex">
+            <summary>Sets the shim of AccountAtAGlanceContext.set_MarketIndexes(DbSet`1&lt;MarketIndex&gt; value)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.AllInstances.MutualFundsGet">
+            <summary>Sets the shim of AccountAtAGlanceContext.get_MutualFunds()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.AllInstances.MutualFundsSetDbSetOfMutualFund">
+            <summary>Sets the shim of AccountAtAGlanceContext.set_MutualFunds(DbSet`1&lt;MutualFund&gt; value)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.AllInstances.OnModelCreatingDbModelBuilder">
+            <summary>Sets the shim of AccountAtAGlanceContext.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.AllInstances.OrderTypesGet">
+            <summary>Sets the shim of AccountAtAGlanceContext.get_OrderTypes()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.AllInstances.OrderTypesSetDbSetOfOrderType">
+            <summary>Sets the shim of AccountAtAGlanceContext.set_OrderTypes(DbSet`1&lt;OrderType&gt; value)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.AllInstances.OrdersGet">
+            <summary>Sets the shim of AccountAtAGlanceContext.get_Orders()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.AllInstances.OrdersSetDbSetOfOrder">
+            <summary>Sets the shim of AccountAtAGlanceContext.set_Orders(DbSet`1&lt;Order&gt; value)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.AllInstances.PositionsGet">
+            <summary>Sets the shim of AccountAtAGlanceContext.get_Positions()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.AllInstances.PositionsSetDbSetOfPosition">
+            <summary>Sets the shim of AccountAtAGlanceContext.set_Positions(DbSet`1&lt;Position&gt; value)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.AllInstances.SecuritiesGet">
+            <summary>Sets the shim of AccountAtAGlanceContext.get_Securities()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.AllInstances.SecuritiesSetDbSetOfSecurity">
+            <summary>Sets the shim of AccountAtAGlanceContext.set_Securities(DbSet`1&lt;Security&gt; value)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.AllInstances.StocksGet">
+            <summary>Sets the shim of AccountAtAGlanceContext.get_Stocks()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.AllInstances.StocksSetDbSetOfStock">
+            <summary>Sets the shim of AccountAtAGlanceContext.set_Stocks(DbSet`1&lt;Stock&gt; value)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.AllInstances.WatchListsGet">
+            <summary>Sets the shim of AccountAtAGlanceContext.get_WatchLists()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountAtAGlanceContext.AllInstances.WatchListsSetDbSetOfWatchList">
+            <summary>Sets the shim of AccountAtAGlanceContext.set_WatchLists(DbSet`1&lt;WatchList&gt; value)</summary>
+        </member>
+        <member name="T:AccountAtAGlance.Repository.Fakes.ShimAccountRepository">
+            <summary>Shim type of AccountAtAGlance.Repository.AccountRepository</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimAccountRepository.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimAccountRepository.#ctor(AccountAtAGlance.Repository.AccountRepository)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimAccountRepository.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimAccountRepository.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimAccountRepository.Bind(AccountAtAGlance.Repository.IAccountRepository)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimAccountRepository.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountRepository.AddBrokerageAccountsListOfSecurityCustomer">
+            <summary>Sets the shim of AccountRepository.AddBrokerageAccounts(List`1&lt;Security&gt; securities, Customer cust)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountRepository.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountRepository.ConstructorIStockEngine">
+            <summary>Sets the shim of AccountRepository.AccountRepository(IStockEngine stockEngine)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountRepository.FillAccountSecuritiesListOfSecurityBrokerageAccountInt32">
+            <summary>Sets the shim of AccountRepository.FillAccountSecurities(List`1&lt;Security&gt; securities, BrokerageAccount acct, Int32 seed)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountRepository.GetAccountInt32">
+            <summary>Sets the shim of AccountRepository.GetAccount(Int32 id)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountRepository.GetAccountString">
+            <summary>Sets the shim of AccountRepository.GetAccount(String acctNumber)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountRepository.GetCustomerString">
+            <summary>Sets the shim of AccountRepository.GetCustomer(String custId)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountRepository.InsertAccountBrokerageAccount">
+            <summary>Sets the shim of AccountRepository.InsertAccount(BrokerageAccount acct)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountRepository.RefreshAccountsData">
+            <summary>Sets the shim of AccountRepository.RefreshAccountsData()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountRepository.UpdateAccountString">
+            <summary>Sets the shim of AccountRepository.UpdateAccount(String acctNumber)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountRepository._AddBrokerageAccountsb__13Position">
+            <summary>Sets the shim of AccountRepository.&lt;AddBrokerageAccounts&gt;b__13(Position p)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountRepository._UpdateAccountb__5Position">
+            <summary>Sets the shim of AccountRepository.&lt;UpdateAccount&gt;b__5(Position p)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountRepository._UpdateAccountb__6Position">
+            <summary>Sets the shim of AccountRepository.&lt;UpdateAccount&gt;b__6(Position p)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountRepository._UpdateAccountb__7Position">
+            <summary>Sets the shim of AccountRepository.&lt;UpdateAccount&gt;b__7(Position p)</summary>
+        </member>
+        <member name="T:AccountAtAGlance.Repository.Fakes.ShimAccountRepository.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountRepository.AllInstances.GetAccountInt32">
+            <summary>Sets the shim of AccountRepository.GetAccount(Int32 id)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountRepository.AllInstances.GetAccountString">
+            <summary>Sets the shim of AccountRepository.GetAccount(String acctNumber)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountRepository.AllInstances.GetCustomerString">
+            <summary>Sets the shim of AccountRepository.GetCustomer(String custId)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountRepository.AllInstances.InsertAccountBrokerageAccount">
+            <summary>Sets the shim of AccountRepository.InsertAccount(BrokerageAccount acct)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountRepository.AllInstances.RefreshAccountsData">
+            <summary>Sets the shim of AccountRepository.RefreshAccountsData()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimAccountRepository.AllInstances.UpdateAccountString">
+            <summary>Sets the shim of AccountRepository.UpdateAccount(String acctNumber)</summary>
+        </member>
+        <member name="T:AccountAtAGlance.Repository.Fakes.ShimDropCreateDatabaseAlwaysInitializer">
+            <summary>Shim type of AccountAtAGlance.Repository.DropCreateDatabaseAlwaysInitializer</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimDropCreateDatabaseAlwaysInitializer.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimDropCreateDatabaseAlwaysInitializer.#ctor(AccountAtAGlance.Repository.DropCreateDatabaseAlwaysInitializer)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimDropCreateDatabaseAlwaysInitializer.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimDropCreateDatabaseAlwaysInitializer.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimDropCreateDatabaseAlwaysInitializer.Bind(System.Data.Entity.IDatabaseInitializer{AccountAtAGlance.Repository.AccountAtAGlanceContext})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimDropCreateDatabaseAlwaysInitializer.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimDropCreateDatabaseAlwaysInitializer.Constructor">
+            <summary>Sets the shim of DropCreateDatabaseAlwaysInitializer.DropCreateDatabaseAlwaysInitializer()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimDropCreateDatabaseAlwaysInitializer.SeedAccountAtAGlanceContext">
+            <summary>Sets the shim of DropCreateDatabaseAlwaysInitializer.Seed(AccountAtAGlanceContext context)</summary>
+        </member>
+        <member name="T:AccountAtAGlance.Repository.Fakes.ShimDropCreateDatabaseAlwaysInitializer.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimDropCreateDatabaseAlwaysInitializer.AllInstances.SeedAccountAtAGlanceContext">
+            <summary>Sets the shim of DropCreateDatabaseAlwaysInitializer.Seed(AccountAtAGlanceContext context)</summary>
+        </member>
+        <member name="T:AccountAtAGlance.Repository.Fakes.ShimMarketsAndNewsRepository">
+            <summary>Shim type of AccountAtAGlance.Repository.MarketsAndNewsRepository</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimMarketsAndNewsRepository.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimMarketsAndNewsRepository.#ctor(AccountAtAGlance.Repository.MarketsAndNewsRepository)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimMarketsAndNewsRepository.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimMarketsAndNewsRepository.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimMarketsAndNewsRepository.Bind(AccountAtAGlance.Repository.IMarketsAndNewsRepository)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimMarketsAndNewsRepository.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimMarketsAndNewsRepository.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimMarketsAndNewsRepository.BuildMarketQuotesIEnumerableOfMarketIndex">
+            <summary>Sets the shim of MarketsAndNewsRepository.BuildMarketQuotes(IEnumerable`1&lt;MarketIndex&gt; markets)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimMarketsAndNewsRepository.ConstructorIStockEngine">
+            <summary>Sets the shim of MarketsAndNewsRepository.MarketsAndNewsRepository(IStockEngine stockEngine)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimMarketsAndNewsRepository.DeleteMarketIndexRecordsAccountAtAGlanceContext">
+            <summary>Sets the shim of MarketsAndNewsRepository.DeleteMarketIndexRecords(AccountAtAGlanceContext context)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimMarketsAndNewsRepository.GetMarketNews">
+            <summary>Sets the shim of MarketsAndNewsRepository.GetMarketNews()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimMarketsAndNewsRepository.GetMarketTickerQuotes">
+            <summary>Sets the shim of MarketsAndNewsRepository.GetMarketTickerQuotes()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimMarketsAndNewsRepository.GetMarkets">
+            <summary>Sets the shim of MarketsAndNewsRepository.GetMarkets()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimMarketsAndNewsRepository.InsertMarketData">
+            <summary>Sets the shim of MarketsAndNewsRepository.InsertMarketData()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimMarketsAndNewsRepository._BuildMarketQuotesb__5MarketIndex">
+            <summary>Sets the shim of MarketsAndNewsRepository.&lt;BuildMarketQuotes&gt;b__5(MarketIndex m)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimMarketsAndNewsRepository._BuildMarketQuotesb__6MarketIndex">
+            <summary>Sets the shim of MarketsAndNewsRepository.&lt;BuildMarketQuotes&gt;b__6(MarketIndex m)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimMarketsAndNewsRepository._BuildMarketQuotesb__7MarketIndex">
+            <summary>Sets the shim of MarketsAndNewsRepository.&lt;BuildMarketQuotes&gt;b__7(MarketIndex m)</summary>
+        </member>
+        <member name="T:AccountAtAGlance.Repository.Fakes.ShimMarketsAndNewsRepository.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimMarketsAndNewsRepository.AllInstances.BuildMarketQuotesIEnumerableOfMarketIndex">
+            <summary>Sets the shim of MarketsAndNewsRepository.BuildMarketQuotes(IEnumerable`1&lt;MarketIndex&gt; markets)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimMarketsAndNewsRepository.AllInstances.DeleteMarketIndexRecordsAccountAtAGlanceContext">
+            <summary>Sets the shim of MarketsAndNewsRepository.DeleteMarketIndexRecords(AccountAtAGlanceContext context)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimMarketsAndNewsRepository.AllInstances.GetMarketNews">
+            <summary>Sets the shim of MarketsAndNewsRepository.GetMarketNews()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimMarketsAndNewsRepository.AllInstances.GetMarketTickerQuotes">
+            <summary>Sets the shim of MarketsAndNewsRepository.GetMarketTickerQuotes()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimMarketsAndNewsRepository.AllInstances.GetMarkets">
+            <summary>Sets the shim of MarketsAndNewsRepository.GetMarkets()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimMarketsAndNewsRepository.AllInstances.InsertMarketData">
+            <summary>Sets the shim of MarketsAndNewsRepository.InsertMarketData()</summary>
+        </member>
+        <member name="T:AccountAtAGlance.Repository.Fakes.ShimModelChangedInitializer">
+            <summary>Shim type of AccountAtAGlance.Repository.ModelChangedInitializer</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimModelChangedInitializer.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimModelChangedInitializer.#ctor(AccountAtAGlance.Repository.ModelChangedInitializer)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimModelChangedInitializer.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimModelChangedInitializer.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimModelChangedInitializer.Bind(System.Data.Entity.IDatabaseInitializer{AccountAtAGlance.Repository.AccountAtAGlanceContext})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimModelChangedInitializer.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimModelChangedInitializer.Constructor">
+            <summary>Sets the shim of ModelChangedInitializer.ModelChangedInitializer()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimModelChangedInitializer.SeedAccountAtAGlanceContext">
+            <summary>Sets the shim of ModelChangedInitializer.Seed(AccountAtAGlanceContext context)</summary>
+        </member>
+        <member name="T:AccountAtAGlance.Repository.Fakes.ShimModelChangedInitializer.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimModelChangedInitializer.AllInstances.SeedAccountAtAGlanceContext">
+            <summary>Sets the shim of ModelChangedInitializer.Seed(AccountAtAGlanceContext context)</summary>
+        </member>
+        <member name="T:AccountAtAGlance.Repository.Fakes.ShimRepositoryBase`1">
+            <summary>Shim type of AccountAtAGlance.Repository.RepositoryBase`1</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimRepositoryBase`1.#ctor(AccountAtAGlance.Repository.RepositoryBase{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimRepositoryBase`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimRepositoryBase`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimRepositoryBase`1.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimRepositoryBase`1.GetListOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Linq.IQueryable{``0}})">
+            <summary>Sets the shim of RepositoryBase`1.GetList()</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimRepositoryBase`1.GetListOf1ExpressionOfFuncOfM0Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.IQueryable{``0}})">
+            <summary>Sets the shim of RepositoryBase`1.GetList(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; predicate)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimRepositoryBase`1.GetListOf2ExpressionOfFuncOfM0BooleanExpressionOfFuncOfM0M1``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Linq.IQueryable{``0}})">
+            <summary>Sets the shim of RepositoryBase`1.GetList(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; predicate, Expression`1&lt;Func`2&lt;!!0,!!1&gt;&gt; orderBy)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimRepositoryBase`1.GetListOf2ExpressionOfFuncOfM0M1``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Linq.IQueryable{``0}})">
+            <summary>Sets the shim of RepositoryBase`1.GetList(Expression`1&lt;Func`2&lt;!!0,!!1&gt;&gt; orderBy)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimRepositoryBase`1.GetOf1ExpressionOfFuncOfM0Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},``0})">
+            <summary>Sets the shim of RepositoryBase`1.Get(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; predicate)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimRepositoryBase`1.SaveOf1M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0,AccountAtAGlance.Model.OperationStatus})">
+            <summary>Sets the shim of RepositoryBase`1.Save(!!0 entity)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimRepositoryBase`1.AllowSerializationGet">
+            <summary>Sets the shim of RepositoryBase`1.get_AllowSerialization()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimRepositoryBase`1.AllowSerializationSetBoolean">
+            <summary>Sets the shim of RepositoryBase`1.set_AllowSerialization(Boolean value)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimRepositoryBase`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimRepositoryBase`1.Constructor">
+            <summary>Sets the shim of RepositoryBase`1.RepositoryBase`1()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimRepositoryBase`1.DataContextGet">
+            <summary>Sets the shim of RepositoryBase`1.get_DataContext()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimRepositoryBase`1.Dispose">
+            <summary>Sets the shim of RepositoryBase`1.Dispose()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimRepositoryBase`1.ExecuteStoreCommandStringObjectArray">
+            <summary>Sets the shim of RepositoryBase`1.ExecuteStoreCommand(String cmdText, Object[] parameters)</summary>
+        </member>
+        <member name="T:AccountAtAGlance.Repository.Fakes.ShimRepositoryBase`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimRepositoryBase`1.AllInstances.GetListOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{AccountAtAGlance.Repository.RepositoryBase{`0},System.Linq.IQueryable{``0}})">
+            <summary>Sets the shim of RepositoryBase`1.GetList()</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimRepositoryBase`1.AllInstances.GetListOf1ExpressionOfFuncOfM0Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{AccountAtAGlance.Repository.RepositoryBase{`0},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.IQueryable{``0}})">
+            <summary>Sets the shim of RepositoryBase`1.GetList(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; predicate)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimRepositoryBase`1.AllInstances.GetListOf2ExpressionOfFuncOfM0BooleanExpressionOfFuncOfM0M1``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{AccountAtAGlance.Repository.RepositoryBase{`0},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Linq.IQueryable{``0}})">
+            <summary>Sets the shim of RepositoryBase`1.GetList(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; predicate, Expression`1&lt;Func`2&lt;!!0,!!1&gt;&gt; orderBy)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimRepositoryBase`1.AllInstances.GetListOf2ExpressionOfFuncOfM0M1``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{AccountAtAGlance.Repository.RepositoryBase{`0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Linq.IQueryable{``0}})">
+            <summary>Sets the shim of RepositoryBase`1.GetList(Expression`1&lt;Func`2&lt;!!0,!!1&gt;&gt; orderBy)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimRepositoryBase`1.AllInstances.GetOf1ExpressionOfFuncOfM0Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{AccountAtAGlance.Repository.RepositoryBase{`0},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},``0})">
+            <summary>Sets the shim of RepositoryBase`1.Get(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; predicate)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimRepositoryBase`1.AllInstances.SaveOf1M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{AccountAtAGlance.Repository.RepositoryBase{`0},``0,AccountAtAGlance.Model.OperationStatus})">
+            <summary>Sets the shim of RepositoryBase`1.Save(!!0 entity)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimRepositoryBase`1.AllInstances.AllowSerializationGet">
+            <summary>Sets the shim of RepositoryBase`1.get_AllowSerialization()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimRepositoryBase`1.AllInstances.AllowSerializationSetBoolean">
+            <summary>Sets the shim of RepositoryBase`1.set_AllowSerialization(Boolean value)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimRepositoryBase`1.AllInstances.DataContextGet">
+            <summary>Sets the shim of RepositoryBase`1.get_DataContext()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimRepositoryBase`1.AllInstances.Dispose">
+            <summary>Sets the shim of RepositoryBase`1.Dispose()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimRepositoryBase`1.AllInstances.ExecuteStoreCommandStringObjectArray">
+            <summary>Sets the shim of RepositoryBase`1.ExecuteStoreCommand(String cmdText, Object[] parameters)</summary>
+        </member>
+        <member name="T:AccountAtAGlance.Repository.Fakes.ShimSecurityRepository">
+            <summary>Shim type of AccountAtAGlance.Repository.SecurityRepository</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimSecurityRepository.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimSecurityRepository.#ctor(AccountAtAGlance.Repository.SecurityRepository)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimSecurityRepository.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimSecurityRepository.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimSecurityRepository.Bind(AccountAtAGlance.Repository.ISecurityRepository)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.ShimSecurityRepository.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimSecurityRepository.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimSecurityRepository.ConstructorIStockEngine">
+            <summary>Sets the shim of SecurityRepository.SecurityRepository(IStockEngine stockEngine)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimSecurityRepository.DeleteSecurityRecordsAccountAtAGlanceContext">
+            <summary>Sets the shim of SecurityRepository.DeleteSecurityRecords(AccountAtAGlanceContext context)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimSecurityRepository.GetSecurityString">
+            <summary>Sets the shim of SecurityRepository.GetSecurity(String symbol)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimSecurityRepository.GetSecurityTickerQuotes">
+            <summary>Sets the shim of SecurityRepository.GetSecurityTickerQuotes()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimSecurityRepository.InsertExchangesIEnumerableOfStringAccountAtAGlanceContext">
+            <summary>Sets the shim of SecurityRepository.InsertExchanges(IEnumerable`1&lt;String&gt; exchanges, AccountAtAGlanceContext context)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimSecurityRepository.InsertSecuritiesIEnumerableOfSecurityAccountAtAGlanceContext">
+            <summary>Sets the shim of SecurityRepository.InsertSecurities(IEnumerable`1&lt;Security&gt; securities, AccountAtAGlanceContext context)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimSecurityRepository.InsertSecurityData">
+            <summary>Sets the shim of SecurityRepository.InsertSecurityData()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimSecurityRepository.UpdateSecurities">
+            <summary>Sets the shim of SecurityRepository.UpdateSecurities()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimSecurityRepository._InsertSecurityDatab__aStock">
+            <summary>Sets the shim of SecurityRepository.&lt;InsertSecurityData&gt;b__a(Stock s)</summary>
+        </member>
+        <member name="T:AccountAtAGlance.Repository.Fakes.ShimSecurityRepository.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimSecurityRepository.AllInstances.DeleteSecurityRecordsAccountAtAGlanceContext">
+            <summary>Sets the shim of SecurityRepository.DeleteSecurityRecords(AccountAtAGlanceContext context)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimSecurityRepository.AllInstances.GetSecurityString">
+            <summary>Sets the shim of SecurityRepository.GetSecurity(String symbol)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimSecurityRepository.AllInstances.GetSecurityTickerQuotes">
+            <summary>Sets the shim of SecurityRepository.GetSecurityTickerQuotes()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimSecurityRepository.AllInstances.InsertExchangesIEnumerableOfStringAccountAtAGlanceContext">
+            <summary>Sets the shim of SecurityRepository.InsertExchanges(IEnumerable`1&lt;String&gt; exchanges, AccountAtAGlanceContext context)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimSecurityRepository.AllInstances.InsertSecurityData">
+            <summary>Sets the shim of SecurityRepository.InsertSecurityData()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.ShimSecurityRepository.AllInstances.UpdateSecurities">
+            <summary>Sets the shim of SecurityRepository.UpdateSecurities()</summary>
+        </member>
+        <member name="T:AccountAtAGlance.Repository.Fakes.StubAccountAtAGlanceContext">
+            <summary>Stub type of AccountAtAGlance.Repository.AccountAtAGlanceContext</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubAccountAtAGlanceContext.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubAccountAtAGlanceContext.Dispose(System.Boolean)">
+            <summary>Sets the stub of AccountAtAGlanceContext.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubAccountAtAGlanceContext.DisposeBoolean">
+            <summary>Sets the stub of AccountAtAGlanceContext.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubAccountAtAGlanceContext.Equals(System.Object)">
+            <summary>Sets the stub of DbContext.Equals(Object obj)</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubAccountAtAGlanceContext.EqualsObject">
+            <summary>Sets the stub of DbContext.Equals(Object obj)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubAccountAtAGlanceContext.GetHashCode">
+            <summary>Sets the stub of DbContext.GetHashCode()</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubAccountAtAGlanceContext.GetHashCode01">
+            <summary>Sets the stub of DbContext.GetHashCode()</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubAccountAtAGlanceContext.InitializeStub">
+            <summary>Initializes a new instance of type StubAccountAtAGlanceContext</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubAccountAtAGlanceContext.OnModelCreating(System.Data.Entity.DbModelBuilder)">
+            <summary>Sets the stub of AccountAtAGlanceContext.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubAccountAtAGlanceContext.OnModelCreatingDbModelBuilder">
+            <summary>Sets the stub of AccountAtAGlanceContext.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubAccountAtAGlanceContext.SaveChanges">
+            <summary>Sets the stub of DbContext.SaveChanges()</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubAccountAtAGlanceContext.SaveChanges01">
+            <summary>Sets the stub of DbContext.SaveChanges()</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubAccountAtAGlanceContext.SaveChangesAsync">
+            <summary>Sets the stub of DbContext.SaveChangesAsync()</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubAccountAtAGlanceContext.SaveChangesAsync(System.Threading.CancellationToken)">
+            <summary>Sets the stub of DbContext.SaveChangesAsync(CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubAccountAtAGlanceContext.SaveChangesAsync01">
+            <summary>Sets the stub of DbContext.SaveChangesAsync()</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubAccountAtAGlanceContext.SaveChangesAsyncCancellationToken">
+            <summary>Sets the stub of DbContext.SaveChangesAsync(CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubAccountAtAGlanceContext.Set(System.Type)">
+            <summary>Sets the stub of DbContext.Set(Type entityType)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubAccountAtAGlanceContext.Set``1">
+            <summary>Sets the stub of DbContext.Set()</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubAccountAtAGlanceContext.SetOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.Entity.DbSet{``0}})">
+            <summary>Sets stubs of Set()</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubAccountAtAGlanceContext.SetType">
+            <summary>Sets the stub of DbContext.Set(Type entityType)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubAccountAtAGlanceContext.ShouldValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry)">
+            <summary>Sets the stub of DbContext.ShouldValidateEntity(DbEntityEntry entityEntry)</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubAccountAtAGlanceContext.ShouldValidateEntityDbEntityEntry">
+            <summary>Sets the stub of DbContext.ShouldValidateEntity(DbEntityEntry entityEntry)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubAccountAtAGlanceContext.ToString">
+            <summary>Sets the stub of DbContext.ToString()</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubAccountAtAGlanceContext.ToString01">
+            <summary>Sets the stub of DbContext.ToString()</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubAccountAtAGlanceContext.ValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry,System.Collections.Generic.IDictionary{System.Object,System.Object})">
+            <summary>Sets the stub of DbContext.ValidateEntity(DbEntityEntry entityEntry, IDictionary`2&lt;Object,Object&gt; items)</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubAccountAtAGlanceContext.ValidateEntityDbEntityEntryIDictionaryOfObjectObject">
+            <summary>Sets the stub of DbContext.ValidateEntity(DbEntityEntry entityEntry, IDictionary`2&lt;Object,Object&gt; items)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.StubAccountAtAGlanceContext.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.StubAccountAtAGlanceContext.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.StubAccountAtAGlanceContext.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AccountAtAGlance.Repository.Fakes.StubAccountRepository">
+            <summary>Stub type of AccountAtAGlance.Repository.AccountRepository</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubAccountRepository.#ctor(AccountAtAGlance.Repository.Helpers.IStockEngine)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubAccountRepository.AllowSerializationGet">
+            <summary>Sets the stub of RepositoryBase`1.get_AllowSerialization()</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubAccountRepository.AllowSerializationSetBoolean">
+            <summary>Sets the stub of RepositoryBase`1.set_AllowSerialization(Boolean value)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubAccountRepository.AttachBackingFieldToAllowSerialization">
+            <summary>Attaches delegates to emulate StubAccountRepository.AllowSerialization as a property with a backing field.</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubAccountRepository.DataContextGet">
+            <summary>Sets the stub of RepositoryBase`1.get_DataContext()</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubAccountRepository.Dispose">
+            <summary>Sets the stub of RepositoryBase`1.Dispose()</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubAccountRepository.Dispose01">
+            <summary>Sets the stub of RepositoryBase`1.Dispose()</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubAccountRepository.Get``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+            <summary>Sets the stub of RepositoryBase`1.Get(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; predicate)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubAccountRepository.GetList``1">
+            <summary>Sets the stub of RepositoryBase`1.GetList()</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubAccountRepository.GetList``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>Sets the stub of RepositoryBase`1.GetList(Expression`1&lt;Func`2&lt;!!0,!!1&gt;&gt; orderBy)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubAccountRepository.GetList``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+            <summary>Sets the stub of RepositoryBase`1.GetList(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; predicate)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubAccountRepository.GetList``2(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>Sets the stub of RepositoryBase`1.GetList(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; predicate, Expression`1&lt;Func`2&lt;!!0,!!1&gt;&gt; orderBy)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubAccountRepository.GetListOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Linq.IQueryable{``0}})">
+            <summary>Sets stubs of GetList()</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubAccountRepository.GetListOf1ExpressionOfFuncOfM0Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.IQueryable{``0}})">
+            <summary>Sets stubs of GetList(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; predicate)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubAccountRepository.GetListOf2ExpressionOfFuncOfM0BooleanExpressionOfFuncOfM0M1``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Linq.IQueryable{``0}})">
+            <summary>Sets stubs of GetList(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; predicate, Expression`1&lt;Func`2&lt;!!0,!!1&gt;&gt; orderBy)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubAccountRepository.GetListOf2ExpressionOfFuncOfM0M1``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Linq.IQueryable{``0}})">
+            <summary>Sets stubs of GetList(Expression`1&lt;Func`2&lt;!!0,!!1&gt;&gt; orderBy)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubAccountRepository.GetOf1ExpressionOfFuncOfM0Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},``0})">
+            <summary>Sets stubs of Get(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; predicate)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubAccountRepository.InitializeStub">
+            <summary>Initializes a new instance of type StubAccountRepository</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubAccountRepository.Save``1(``0)">
+            <summary>Sets the stub of RepositoryBase`1.Save(!!0 entity)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubAccountRepository.SaveOf1M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0,AccountAtAGlance.Model.OperationStatus})">
+            <summary>Sets stubs of Save(!!0 entity)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.StubAccountRepository.AllowSerialization">
+            <summary>Sets the stub of RepositoryBase`1.get_AllowSerialization()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.StubAccountRepository.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.StubAccountRepository.DataContext">
+            <summary>Sets the stub of RepositoryBase`1.get_DataContext()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.StubAccountRepository.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.StubAccountRepository.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AccountAtAGlance.Repository.Fakes.StubDropCreateDatabaseAlwaysInitializer">
+            <summary>Stub type of AccountAtAGlance.Repository.DropCreateDatabaseAlwaysInitializer</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubDropCreateDatabaseAlwaysInitializer.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubDropCreateDatabaseAlwaysInitializer.InitializeDatabase(AccountAtAGlance.Repository.AccountAtAGlanceContext)">
+            <summary>Sets the stub of DropCreateDatabaseAlways`1.InitializeDatabase(!0 context)</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubDropCreateDatabaseAlwaysInitializer.InitializeDatabaseAccountAtAGlanceContext">
+            <summary>Sets the stub of DropCreateDatabaseAlways`1.InitializeDatabase(!0 context)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubDropCreateDatabaseAlwaysInitializer.InitializeStub">
+            <summary>Initializes a new instance of type StubDropCreateDatabaseAlwaysInitializer</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubDropCreateDatabaseAlwaysInitializer.Seed(AccountAtAGlance.Repository.AccountAtAGlanceContext)">
+            <summary>Sets the stub of DropCreateDatabaseAlwaysInitializer.Seed(AccountAtAGlanceContext context)</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubDropCreateDatabaseAlwaysInitializer.SeedAccountAtAGlanceContext">
+            <summary>Sets the stub of DropCreateDatabaseAlwaysInitializer.Seed(AccountAtAGlanceContext context)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.StubDropCreateDatabaseAlwaysInitializer.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.StubDropCreateDatabaseAlwaysInitializer.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.StubDropCreateDatabaseAlwaysInitializer.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AccountAtAGlance.Repository.Fakes.StubIAccountRepository">
+            <summary>Stub type of AccountAtAGlance.Repository.IAccountRepository</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubIAccountRepository.#ctor">
+            <summary>Initializes a new instance of type StubIAccountRepository</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubIAccountRepository.aaagr::AccountAtAGlance#Repository#IAccountRepository#GetAccount(System.String)">
+            <summary>Sets the stub of IAccountRepository.GetAccount(String acctNumber)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubIAccountRepository.aaagr::AccountAtAGlance#Repository#IAccountRepository#GetCustomer(System.String)">
+            <summary>Sets the stub of IAccountRepository.GetCustomer(String custId)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubIAccountRepository.aaagr::AccountAtAGlance#Repository#IAccountRepository#InsertAccount(AccountAtAGlance.Model.BrokerageAccount)">
+            <summary>Sets the stub of IAccountRepository.InsertAccount(BrokerageAccount acct)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubIAccountRepository.aaagr::AccountAtAGlance#Repository#IAccountRepository#RefreshAccountsData">
+            <summary>Sets the stub of IAccountRepository.RefreshAccountsData()</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubIAccountRepository.GetAccountString">
+            <summary>Sets the stub of IAccountRepository.GetAccount(String acctNumber)</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubIAccountRepository.GetCustomerString">
+            <summary>Sets the stub of IAccountRepository.GetCustomer(String custId)</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubIAccountRepository.InsertAccountBrokerageAccount">
+            <summary>Sets the stub of IAccountRepository.InsertAccount(BrokerageAccount acct)</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubIAccountRepository.RefreshAccountsData">
+            <summary>Sets the stub of IAccountRepository.RefreshAccountsData()</summary>
+        </member>
+        <member name="T:AccountAtAGlance.Repository.Fakes.StubIDisposedTracker">
+            <summary>Stub type of AccountAtAGlance.Repository.IDisposedTracker</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubIDisposedTracker.#ctor">
+            <summary>Initializes a new instance of type StubIDisposedTracker</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubIDisposedTracker.AttachBackingFieldToIsDisposed">
+            <summary>Attaches delegates to emulate StubIDisposedTracker.IsDisposed as a property with a backing field.</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubIDisposedTracker.IsDisposedGet">
+            <summary>Sets the stub of IDisposedTracker.get_IsDisposed()</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubIDisposedTracker.IsDisposedSetBoolean">
+            <summary>Sets the stub of IDisposedTracker.set_IsDisposed(Boolean value)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.StubIDisposedTracker.aaagr::AccountAtAGlance#Repository#IDisposedTracker#IsDisposed">
+            <summary>Sets the stub of IDisposedTracker.get_IsDisposed()</summary>
+        </member>
+        <member name="T:AccountAtAGlance.Repository.Fakes.StubIMarketsAndNewsRepository">
+            <summary>Stub type of AccountAtAGlance.Repository.IMarketsAndNewsRepository</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubIMarketsAndNewsRepository.#ctor">
+            <summary>Initializes a new instance of type StubIMarketsAndNewsRepository</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubIMarketsAndNewsRepository.aaagr::AccountAtAGlance#Repository#IMarketsAndNewsRepository#GetMarketNews">
+            <summary>Sets the stub of IMarketsAndNewsRepository.GetMarketNews()</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubIMarketsAndNewsRepository.aaagr::AccountAtAGlance#Repository#IMarketsAndNewsRepository#GetMarketTickerQuotes">
+            <summary>Sets the stub of IMarketsAndNewsRepository.GetMarketTickerQuotes()</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubIMarketsAndNewsRepository.aaagr::AccountAtAGlance#Repository#IMarketsAndNewsRepository#GetMarkets">
+            <summary>Sets the stub of IMarketsAndNewsRepository.GetMarkets()</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubIMarketsAndNewsRepository.aaagr::AccountAtAGlance#Repository#IMarketsAndNewsRepository#InsertMarketData">
+            <summary>Sets the stub of IMarketsAndNewsRepository.InsertMarketData()</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubIMarketsAndNewsRepository.GetMarketNews">
+            <summary>Sets the stub of IMarketsAndNewsRepository.GetMarketNews()</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubIMarketsAndNewsRepository.GetMarketTickerQuotes">
+            <summary>Sets the stub of IMarketsAndNewsRepository.GetMarketTickerQuotes()</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubIMarketsAndNewsRepository.GetMarkets">
+            <summary>Sets the stub of IMarketsAndNewsRepository.GetMarkets()</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubIMarketsAndNewsRepository.InsertMarketData">
+            <summary>Sets the stub of IMarketsAndNewsRepository.InsertMarketData()</summary>
+        </member>
+        <member name="T:AccountAtAGlance.Repository.Fakes.StubISecurityRepository">
+            <summary>Stub type of AccountAtAGlance.Repository.ISecurityRepository</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubISecurityRepository.#ctor">
+            <summary>Initializes a new instance of type StubISecurityRepository</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubISecurityRepository.aaagr::AccountAtAGlance#Repository#ISecurityRepository#GetSecurity(System.String)">
+            <summary>Sets the stub of ISecurityRepository.GetSecurity(String symbol)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubISecurityRepository.aaagr::AccountAtAGlance#Repository#ISecurityRepository#GetSecurityTickerQuotes">
+            <summary>Sets the stub of ISecurityRepository.GetSecurityTickerQuotes()</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubISecurityRepository.aaagr::AccountAtAGlance#Repository#ISecurityRepository#InsertSecurityData">
+            <summary>Sets the stub of ISecurityRepository.InsertSecurityData()</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubISecurityRepository.aaagr::AccountAtAGlance#Repository#ISecurityRepository#UpdateSecurities">
+            <summary>Sets the stub of ISecurityRepository.UpdateSecurities()</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubISecurityRepository.GetSecurityString">
+            <summary>Sets the stub of ISecurityRepository.GetSecurity(String symbol)</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubISecurityRepository.GetSecurityTickerQuotes">
+            <summary>Sets the stub of ISecurityRepository.GetSecurityTickerQuotes()</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubISecurityRepository.InsertSecurityData">
+            <summary>Sets the stub of ISecurityRepository.InsertSecurityData()</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubISecurityRepository.UpdateSecurities">
+            <summary>Sets the stub of ISecurityRepository.UpdateSecurities()</summary>
+        </member>
+        <member name="T:AccountAtAGlance.Repository.Fakes.StubMarketsAndNewsRepository">
+            <summary>Stub type of AccountAtAGlance.Repository.MarketsAndNewsRepository</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubMarketsAndNewsRepository.#ctor(AccountAtAGlance.Repository.Helpers.IStockEngine)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubMarketsAndNewsRepository.AllowSerializationGet">
+            <summary>Sets the stub of RepositoryBase`1.get_AllowSerialization()</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubMarketsAndNewsRepository.AllowSerializationSetBoolean">
+            <summary>Sets the stub of RepositoryBase`1.set_AllowSerialization(Boolean value)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubMarketsAndNewsRepository.AttachBackingFieldToAllowSerialization">
+            <summary>Attaches delegates to emulate StubMarketsAndNewsRepository.AllowSerialization as a property with a backing field.</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubMarketsAndNewsRepository.DataContextGet">
+            <summary>Sets the stub of RepositoryBase`1.get_DataContext()</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubMarketsAndNewsRepository.Dispose">
+            <summary>Sets the stub of RepositoryBase`1.Dispose()</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubMarketsAndNewsRepository.Dispose01">
+            <summary>Sets the stub of RepositoryBase`1.Dispose()</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubMarketsAndNewsRepository.Get``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+            <summary>Sets the stub of RepositoryBase`1.Get(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; predicate)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubMarketsAndNewsRepository.GetList``1">
+            <summary>Sets the stub of RepositoryBase`1.GetList()</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubMarketsAndNewsRepository.GetList``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>Sets the stub of RepositoryBase`1.GetList(Expression`1&lt;Func`2&lt;!!0,!!1&gt;&gt; orderBy)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubMarketsAndNewsRepository.GetList``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+            <summary>Sets the stub of RepositoryBase`1.GetList(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; predicate)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubMarketsAndNewsRepository.GetList``2(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>Sets the stub of RepositoryBase`1.GetList(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; predicate, Expression`1&lt;Func`2&lt;!!0,!!1&gt;&gt; orderBy)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubMarketsAndNewsRepository.GetListOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Linq.IQueryable{``0}})">
+            <summary>Sets stubs of GetList()</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubMarketsAndNewsRepository.GetListOf1ExpressionOfFuncOfM0Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.IQueryable{``0}})">
+            <summary>Sets stubs of GetList(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; predicate)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubMarketsAndNewsRepository.GetListOf2ExpressionOfFuncOfM0BooleanExpressionOfFuncOfM0M1``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Linq.IQueryable{``0}})">
+            <summary>Sets stubs of GetList(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; predicate, Expression`1&lt;Func`2&lt;!!0,!!1&gt;&gt; orderBy)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubMarketsAndNewsRepository.GetListOf2ExpressionOfFuncOfM0M1``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Linq.IQueryable{``0}})">
+            <summary>Sets stubs of GetList(Expression`1&lt;Func`2&lt;!!0,!!1&gt;&gt; orderBy)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubMarketsAndNewsRepository.GetOf1ExpressionOfFuncOfM0Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},``0})">
+            <summary>Sets stubs of Get(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; predicate)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubMarketsAndNewsRepository.InitializeStub">
+            <summary>Initializes a new instance of type StubMarketsAndNewsRepository</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubMarketsAndNewsRepository.Save``1(``0)">
+            <summary>Sets the stub of RepositoryBase`1.Save(!!0 entity)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubMarketsAndNewsRepository.SaveOf1M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0,AccountAtAGlance.Model.OperationStatus})">
+            <summary>Sets stubs of Save(!!0 entity)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.StubMarketsAndNewsRepository.AllowSerialization">
+            <summary>Sets the stub of RepositoryBase`1.get_AllowSerialization()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.StubMarketsAndNewsRepository.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.StubMarketsAndNewsRepository.DataContext">
+            <summary>Sets the stub of RepositoryBase`1.get_DataContext()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.StubMarketsAndNewsRepository.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.StubMarketsAndNewsRepository.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AccountAtAGlance.Repository.Fakes.StubModelChangedInitializer">
+            <summary>Stub type of AccountAtAGlance.Repository.ModelChangedInitializer</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubModelChangedInitializer.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubModelChangedInitializer.InitializeDatabase(AccountAtAGlance.Repository.AccountAtAGlanceContext)">
+            <summary>Sets the stub of DropCreateDatabaseIfModelChanges`1.InitializeDatabase(!0 context)</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubModelChangedInitializer.InitializeDatabaseAccountAtAGlanceContext">
+            <summary>Sets the stub of DropCreateDatabaseIfModelChanges`1.InitializeDatabase(!0 context)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubModelChangedInitializer.InitializeStub">
+            <summary>Initializes a new instance of type StubModelChangedInitializer</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubModelChangedInitializer.Seed(AccountAtAGlance.Repository.AccountAtAGlanceContext)">
+            <summary>Sets the stub of ModelChangedInitializer.Seed(AccountAtAGlanceContext context)</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubModelChangedInitializer.SeedAccountAtAGlanceContext">
+            <summary>Sets the stub of ModelChangedInitializer.Seed(AccountAtAGlanceContext context)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.StubModelChangedInitializer.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.StubModelChangedInitializer.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.StubModelChangedInitializer.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AccountAtAGlance.Repository.Fakes.StubRepositoryBase`1">
+            <summary>Stub type of AccountAtAGlance.Repository.RepositoryBase`1</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubRepositoryBase`1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubRepositoryBase`1.AllowSerializationGet">
+            <summary>Sets the stub of RepositoryBase`1.get_AllowSerialization()</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubRepositoryBase`1.AllowSerializationSetBoolean">
+            <summary>Sets the stub of RepositoryBase`1.set_AllowSerialization(Boolean value)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubRepositoryBase`1.AttachBackingFieldToAllowSerialization">
+            <summary>Attaches delegates to emulate StubRepositoryBase.AllowSerialization as a property with a backing field.</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubRepositoryBase`1.DataContextGet">
+            <summary>Sets the stub of RepositoryBase`1.get_DataContext()</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubRepositoryBase`1.Dispose">
+            <summary>Sets the stub of RepositoryBase`1.Dispose()</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubRepositoryBase`1.Dispose01">
+            <summary>Sets the stub of RepositoryBase`1.Dispose()</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubRepositoryBase`1.Get``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+            <summary>Sets the stub of RepositoryBase`1.Get(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; predicate)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubRepositoryBase`1.GetList``1">
+            <summary>Sets the stub of RepositoryBase`1.GetList()</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubRepositoryBase`1.GetList``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>Sets the stub of RepositoryBase`1.GetList(Expression`1&lt;Func`2&lt;!!0,!!1&gt;&gt; orderBy)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubRepositoryBase`1.GetList``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+            <summary>Sets the stub of RepositoryBase`1.GetList(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; predicate)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubRepositoryBase`1.GetList``2(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>Sets the stub of RepositoryBase`1.GetList(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; predicate, Expression`1&lt;Func`2&lt;!!0,!!1&gt;&gt; orderBy)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubRepositoryBase`1.GetListOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Linq.IQueryable{``0}})">
+            <summary>Sets stubs of GetList()</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubRepositoryBase`1.GetListOf1ExpressionOfFuncOfM0Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.IQueryable{``0}})">
+            <summary>Sets stubs of GetList(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; predicate)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubRepositoryBase`1.GetListOf2ExpressionOfFuncOfM0BooleanExpressionOfFuncOfM0M1``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Linq.IQueryable{``0}})">
+            <summary>Sets stubs of GetList(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; predicate, Expression`1&lt;Func`2&lt;!!0,!!1&gt;&gt; orderBy)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubRepositoryBase`1.GetListOf2ExpressionOfFuncOfM0M1``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Linq.IQueryable{``0}})">
+            <summary>Sets stubs of GetList(Expression`1&lt;Func`2&lt;!!0,!!1&gt;&gt; orderBy)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubRepositoryBase`1.GetOf1ExpressionOfFuncOfM0Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},``0})">
+            <summary>Sets stubs of Get(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; predicate)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubRepositoryBase`1.InitializeStub">
+            <summary>Initializes a new instance of type StubRepositoryBase</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubRepositoryBase`1.Save``1(``0)">
+            <summary>Sets the stub of RepositoryBase`1.Save(!!0 entity)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubRepositoryBase`1.SaveOf1M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0,AccountAtAGlance.Model.OperationStatus})">
+            <summary>Sets stubs of Save(!!0 entity)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.StubRepositoryBase`1.AllowSerialization">
+            <summary>Sets the stub of RepositoryBase`1.get_AllowSerialization()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.StubRepositoryBase`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.StubRepositoryBase`1.DataContext">
+            <summary>Sets the stub of RepositoryBase`1.get_DataContext()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.StubRepositoryBase`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.StubRepositoryBase`1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AccountAtAGlance.Repository.Fakes.StubSecurityRepository">
+            <summary>Stub type of AccountAtAGlance.Repository.SecurityRepository</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubSecurityRepository.#ctor(AccountAtAGlance.Repository.Helpers.IStockEngine)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubSecurityRepository.AllowSerializationGet">
+            <summary>Sets the stub of RepositoryBase`1.get_AllowSerialization()</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubSecurityRepository.AllowSerializationSetBoolean">
+            <summary>Sets the stub of RepositoryBase`1.set_AllowSerialization(Boolean value)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubSecurityRepository.AttachBackingFieldToAllowSerialization">
+            <summary>Attaches delegates to emulate StubSecurityRepository.AllowSerialization as a property with a backing field.</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubSecurityRepository.DataContextGet">
+            <summary>Sets the stub of RepositoryBase`1.get_DataContext()</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubSecurityRepository.Dispose">
+            <summary>Sets the stub of RepositoryBase`1.Dispose()</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Fakes.StubSecurityRepository.Dispose01">
+            <summary>Sets the stub of RepositoryBase`1.Dispose()</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubSecurityRepository.Get``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+            <summary>Sets the stub of RepositoryBase`1.Get(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; predicate)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubSecurityRepository.GetList``1">
+            <summary>Sets the stub of RepositoryBase`1.GetList()</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubSecurityRepository.GetList``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>Sets the stub of RepositoryBase`1.GetList(Expression`1&lt;Func`2&lt;!!0,!!1&gt;&gt; orderBy)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubSecurityRepository.GetList``1(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+            <summary>Sets the stub of RepositoryBase`1.GetList(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; predicate)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubSecurityRepository.GetList``2(System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>Sets the stub of RepositoryBase`1.GetList(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; predicate, Expression`1&lt;Func`2&lt;!!0,!!1&gt;&gt; orderBy)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubSecurityRepository.GetListOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Linq.IQueryable{``0}})">
+            <summary>Sets stubs of GetList()</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubSecurityRepository.GetListOf1ExpressionOfFuncOfM0Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.IQueryable{``0}})">
+            <summary>Sets stubs of GetList(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; predicate)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubSecurityRepository.GetListOf2ExpressionOfFuncOfM0BooleanExpressionOfFuncOfM0M1``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Linq.IQueryable{``0}})">
+            <summary>Sets stubs of GetList(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; predicate, Expression`1&lt;Func`2&lt;!!0,!!1&gt;&gt; orderBy)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubSecurityRepository.GetListOf2ExpressionOfFuncOfM0M1``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Linq.IQueryable{``0}})">
+            <summary>Sets stubs of GetList(Expression`1&lt;Func`2&lt;!!0,!!1&gt;&gt; orderBy)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubSecurityRepository.GetOf1ExpressionOfFuncOfM0Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},``0})">
+            <summary>Sets stubs of Get(Expression`1&lt;Func`2&lt;!!0,Boolean&gt;&gt; predicate)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubSecurityRepository.InitializeStub">
+            <summary>Initializes a new instance of type StubSecurityRepository</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubSecurityRepository.Save``1(``0)">
+            <summary>Sets the stub of RepositoryBase`1.Save(!!0 entity)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Fakes.StubSecurityRepository.SaveOf1M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0,AccountAtAGlance.Model.OperationStatus})">
+            <summary>Sets stubs of Save(!!0 entity)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.StubSecurityRepository.AllowSerialization">
+            <summary>Sets the stub of RepositoryBase`1.get_AllowSerialization()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.StubSecurityRepository.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.StubSecurityRepository.DataContext">
+            <summary>Sets the stub of RepositoryBase`1.get_DataContext()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.StubSecurityRepository.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Fakes.StubSecurityRepository.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AccountAtAGlance.Repository.Helpers.Fakes.ShimDataSimulator">
+            <summary>Shim type of AccountAtAGlance.Repository.Helpers.DataSimulator</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Helpers.Fakes.ShimDataSimulator.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Helpers.Fakes.ShimDataSimulator.#ctor(AccountAtAGlance.Repository.Helpers.DataSimulator)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Helpers.Fakes.ShimDataSimulator.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Helpers.Fakes.ShimDataSimulator.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.ShimDataSimulator.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.ShimDataSimulator.Constructor">
+            <summary>Sets the shim of DataSimulator.DataSimulator()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.ShimDataSimulator.GetDataPointsDecimal">
+            <summary>Sets the shim of DataSimulator.GetDataPoints(Decimal last)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.ShimDataSimulator.GetJavascriptTimestampDateTime">
+            <summary>Sets the shim of DataSimulator.GetJavascriptTimestamp(DateTime input)</summary>
+        </member>
+        <member name="T:AccountAtAGlance.Repository.Helpers.Fakes.ShimDataSimulator.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.ShimDataSimulator.AllInstances.GetDataPointsDecimal">
+            <summary>Sets the shim of DataSimulator.GetDataPoints(Decimal last)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.ShimDataSimulator.AllInstances.GetJavascriptTimestampDateTime">
+            <summary>Sets the shim of DataSimulator.GetJavascriptTimestamp(DateTime input)</summary>
+        </member>
+        <member name="T:AccountAtAGlance.Repository.Helpers.Fakes.ShimStockEngine">
+            <summary>Shim type of AccountAtAGlance.Repository.Helpers.StockEngine</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Helpers.Fakes.ShimStockEngine.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Helpers.Fakes.ShimStockEngine.#ctor(AccountAtAGlance.Repository.Helpers.StockEngine)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Helpers.Fakes.ShimStockEngine.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Helpers.Fakes.ShimStockEngine.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Helpers.Fakes.ShimStockEngine.Bind(AccountAtAGlance.Repository.Helpers.IStockEngine)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.ShimStockEngine.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.ShimStockEngine.Constructor">
+            <summary>Sets the shim of StockEngine.StockEngine()</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.ShimStockEngine.CreateXDocumentString">
+            <summary>Sets the shim of StockEngine.CreateXDocument(String baseUrl)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.ShimStockEngine.FilterSymbolsXDocumentStringArray">
+            <summary>Sets the shim of StockEngine.FilterSymbols(XDocument doc, String[] symbols)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.ShimStockEngine.GetAttributeDataXElementString">
+            <summary>Sets the shim of StockEngine.GetAttributeData(XElement quote, String elemName)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.ShimStockEngine.GetDateTimeXElementString">
+            <summary>Sets the shim of StockEngine.GetDateTime(XElement quote, String elemName)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.ShimStockEngine.GetDecimalXElementString">
+            <summary>Sets the shim of StockEngine.GetDecimal(XElement quote, String elemName)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.ShimStockEngine.GetLongXElementString">
+            <summary>Sets the shim of StockEngine.GetLong(XElement quote, String elemName)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.ShimStockEngine.GetMarketQuotesStringArray">
+            <summary>Sets the shim of StockEngine.GetMarketQuotes(String[] symbols)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.ShimStockEngine.GetSecurityQuotesStringArray">
+            <summary>Sets the shim of StockEngine.GetSecurityQuotes(String[] symbols)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.ShimStockEngine.ParseMarketIndexesXDocument">
+            <summary>Sets the shim of StockEngine.ParseMarketIndexes(XDocument doc)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.ShimStockEngine.ParseSecuritiesXDocument">
+            <summary>Sets the shim of StockEngine.ParseSecurities(XDocument doc)</summary>
+        </member>
+        <member name="T:AccountAtAGlance.Repository.Helpers.Fakes.ShimStockEngine.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.ShimStockEngine.AllInstances.CreateXDocumentString">
+            <summary>Sets the shim of StockEngine.CreateXDocument(String baseUrl)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.ShimStockEngine.AllInstances.FilterSymbolsXDocumentStringArray">
+            <summary>Sets the shim of StockEngine.FilterSymbols(XDocument doc, String[] symbols)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.ShimStockEngine.AllInstances.GetAttributeDataXElementString">
+            <summary>Sets the shim of StockEngine.GetAttributeData(XElement quote, String elemName)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.ShimStockEngine.AllInstances.GetDateTimeXElementString">
+            <summary>Sets the shim of StockEngine.GetDateTime(XElement quote, String elemName)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.ShimStockEngine.AllInstances.GetDecimalXElementString">
+            <summary>Sets the shim of StockEngine.GetDecimal(XElement quote, String elemName)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.ShimStockEngine.AllInstances.GetLongXElementString">
+            <summary>Sets the shim of StockEngine.GetLong(XElement quote, String elemName)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.ShimStockEngine.AllInstances.GetMarketQuotesStringArray">
+            <summary>Sets the shim of StockEngine.GetMarketQuotes(String[] symbols)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.ShimStockEngine.AllInstances.GetSecurityQuotesStringArray">
+            <summary>Sets the shim of StockEngine.GetSecurityQuotes(String[] symbols)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.ShimStockEngine.AllInstances.ParseMarketIndexesXDocument">
+            <summary>Sets the shim of StockEngine.ParseMarketIndexes(XDocument doc)</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.ShimStockEngine.AllInstances.ParseSecuritiesXDocument">
+            <summary>Sets the shim of StockEngine.ParseSecurities(XDocument doc)</summary>
+        </member>
+        <member name="T:AccountAtAGlance.Repository.Helpers.Fakes.StubDataSimulator">
+            <summary>Stub type of AccountAtAGlance.Repository.Helpers.DataSimulator</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Helpers.Fakes.StubDataSimulator.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Helpers.Fakes.StubDataSimulator.InitializeStub">
+            <summary>Initializes a new instance of type StubDataSimulator</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.StubDataSimulator.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.StubDataSimulator.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.StubDataSimulator.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AccountAtAGlance.Repository.Helpers.Fakes.StubIStockEngine">
+            <summary>Stub type of AccountAtAGlance.Repository.Helpers.IStockEngine</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Helpers.Fakes.StubIStockEngine.#ctor">
+            <summary>Initializes a new instance of type StubIStockEngine</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Helpers.Fakes.StubIStockEngine.aaagr::AccountAtAGlance#Repository#Helpers#IStockEngine#GetMarketQuotes(System.String[])">
+            <summary>Sets the stub of IStockEngine.GetMarketQuotes(String[] symbols)</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Helpers.Fakes.StubIStockEngine.aaagr::AccountAtAGlance#Repository#Helpers#IStockEngine#GetSecurityQuotes(System.String[])">
+            <summary>Sets the stub of IStockEngine.GetSecurityQuotes(String[] symbols)</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Helpers.Fakes.StubIStockEngine.GetMarketQuotesStringArray">
+            <summary>Sets the stub of IStockEngine.GetMarketQuotes(String[] symbols)</summary>
+        </member>
+        <member name="F:AccountAtAGlance.Repository.Helpers.Fakes.StubIStockEngine.GetSecurityQuotesStringArray">
+            <summary>Sets the stub of IStockEngine.GetSecurityQuotes(String[] symbols)</summary>
+        </member>
+        <member name="T:AccountAtAGlance.Repository.Helpers.Fakes.StubStockEngine">
+            <summary>Stub type of AccountAtAGlance.Repository.Helpers.StockEngine</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Helpers.Fakes.StubStockEngine.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AccountAtAGlance.Repository.Helpers.Fakes.StubStockEngine.InitializeStub">
+            <summary>Initializes a new instance of type StubStockEngine</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.StubStockEngine.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.StubStockEngine.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AccountAtAGlance.Repository.Helpers.Fakes.StubStockEngine.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

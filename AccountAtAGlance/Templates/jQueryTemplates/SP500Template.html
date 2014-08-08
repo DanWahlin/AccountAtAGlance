@@ -1,0 +1,49 @@
+﻿<script id="SP500Template_Small" type="text/x-jquery-tmpl">
+    <div class="content">
+        <header>
+            <div class="Left">S&P 500</div>
+            <div class="MarketQuoteLast Right">${ SP500.Last }</div>
+        </header>
+        <section>
+            <div class="MarketQuoteDetails">        
+                {{tmpl '#SP500QuoteDetails_Template' }}
+            </div>
+        </section>
+    </div>
+</script>
+
+<script id="SP500Template_Medium" type="text/x-jquery-tmpl">
+    <div class="content">
+        <header>
+            <div class="Left">S&P 500</div>
+            <div class="MarketQuoteLast Right">${ SP500.Last }</div>
+        </header>
+        <section>
+            <div class="MarketQuoteDetails">        
+                {{tmpl '#SP500QuoteDetails_Template' }}
+            </div>
+            <div id="SP500Canvas" class="canvas"></div>
+        </section>
+    </div>
+</script>
+
+
+<script id="SP500Template_Large" type="text/x-jquery-tmpl">
+    <div class="content">
+        <header>
+            <div class="Left">S&P 500</div>
+            <div class="MarketQuoteLast Right">${ SP500.Last }</div>
+        </header>
+        <section>
+            <div class="MarketQuoteDetails">        
+                {{tmpl '#SP500QuoteDetails_Template' }}
+            </div>
+            <div id="SP500Canvas" class="canvas"></div>
+        </section>
+    </div>
+</script>
+
+<script id="SP500QuoteDetails_Template" type="text/x-jquery-tmpl">
+    <span class="MarketQuoteChange {{if parseFloat(SP500.Change) > 0}}Positive{{else}}Negative{{/if}}">{{if parseFloat(SP500.Change) > 0}}+{{/if}}${ SP500.Change }</span>&nbsp;&nbsp;
+    <span class="MarketQuotePercentChange {{if parseFloat(SP500.PercentChange) > 0}}Positive{{else}}Negative{{/if}}">${ SP500.PercentChange }%</span>
+</script>

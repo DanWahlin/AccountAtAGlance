@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="http://code.jquery.com/qunit/qunit-1.14.0.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="qunit"></div>
+    <script src="/Scripts/jquery-2.1.1.min.js"></script>
+    <script src="/Scripts/scene.dataservice.js"></script>
+    <script src="http://code.jquery.com/qunit/qunit-1.14.0.js"></script>
+    <script>
+        module("dataService.getAccount() Tests");
+
+        asyncTest("dataService getAccount() Not Null", 1, function () {
+            dataService.getAccount('Z485739881').done(function (data) {
+                ok(data != null, "Data returned from getAccount()");
+                start();
+            });
+        })
+
+        asyncTest("dataService getAccount() returns correct account number", 1, function () {
+            var expected = 'Z485739881';
+
+            dataService.getAccount(expected).done(function (data) {
+                ok(data.AccountNumber === expected, "AccountNumber returned from getAccount()");
+                start();
+            });
+        });
+
+        module("dataService.getQuote() Tests");
+
+        asyncTest("dataService getQuote() returns correct symbol", 1, function () {
+            var expected = 'msft';
+
+            dataService.getQuote(expected).done(function (data) {
+                ok(data.Symbol.toLowerCase() === expected, "Correct symbol returned from getQuote()");
+                start();
+            });
+        });
+
+    </script>
+</body>
+</html>

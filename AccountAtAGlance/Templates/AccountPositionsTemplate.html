@@ -1,0 +1,106 @@
+﻿<script id="AccountPositionsTemplate_Small" type="text/x-handlebars-template">
+    <div class="content">
+        <header>
+            <span>Account Positions</span>
+        </header>       
+        <section>
+            <br />
+            <div class="Currency Positive" style="font-size:16pt;">Total: {{PositionsTotal}}</span>
+        </section>     
+    </div>
+</script>
+
+<script id="AccountPositionsTemplate_Medium" type="text/x-handlebars-template">
+    <div class="content">
+        <header>
+            <span>Account Positions</span>
+        </header>
+        <section>
+            <table id="AccountPositionsTable" cellpadding="3" cellspacing="0">
+                <thead title="Click a column to sort">
+                    <tr>
+                        <th>Symbol</th>
+                        <th>Shares</th>
+                        <th>Last</th>
+                        <th>Change</th>
+                        <th>% Chg</th>
+                        <th>Open</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each Positions}}     
+                        <tr>
+                            <td>{{ Security.Symbol }}</td>
+                            <td>{{ Shares }}</td>
+                            <td>{{ Security.Last }}</td>                            
+                            <td class="{{getChangeCSSClass Security.Change}}">
+                                {{ Security.Change }}
+                            </td>
+                            <td class="{{getChangeCSSClass Security.PercentChange}}">
+                                {{ Security.PercentChange }}
+                            </td>
+                            <td>{{ Security.Open }}</td>
+                            <td class="Currency">{{ Total}}</td>
+                        </tr>
+                    {{/each}}
+                </tbody>
+            </table>
+        </section>       
+    </div>
+    <div class="stickyfooter" style="background-color: #c5dfe8">       
+        <div class="Left Bold">Total:</div>
+        <div class="Right">
+            <span class="Currency">{{PositionsTotal}}</span>
+        </div>
+        <div class="Clear" />           
+    </div>    
+    
+</script>
+
+<script id="AccountPositionsTemplate_Large" type="text/x-handlebars-template">
+    <div class="content">
+        <header>
+            <span>Account Positions</span>
+        </header>
+        <section>
+            <table id="AccountPositionsTable" cellpadding="2" cellspacing="0">
+                <thead title="Click a column to sort">
+                    <tr>
+                        <th>Symbol</th>
+                        <th>Shares</th>
+                        <th>Last</th>
+                        <th>Change</th>
+                        <th>% Chg</th>
+                        <th>Open</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each Positions}}     
+                        <tr>
+                            <td>{{ Security.Symbol }}</td>
+                            <td>{{ Shares }}</td>
+                            <td>{{ Security.Last }}</td>                            
+                            <td class="{{getChangeCSSClass Security.Change}}">
+                                {{ Security.Change }}
+                            </td>
+                            <td class="{{getChangeCSSClass Security.PercentChange}}">
+                                {{ Security.PercentChange }}
+                            </td>
+                            <td>{{ Security.Open }}</td>
+                            <td class="Currency">{{ Total }}</td>
+                        </tr>
+                    {{/each}}
+                </tbody>
+            </table>
+        </section>  
+    </div>   
+    <div class="stickyfooter" style="background-color: #c5dfe8">       
+        <div class="Left Bold">Total:</div>
+        <div class="Right">
+            <span class="Currency">{{PositionsTotal}}</span>
+        </div>
+        <div class="Clear" />           
+    </div>       
+</script>

@@ -1,0 +1,158 @@
+﻿/*@font-face { font-family: 'Clean'; src: url('Fonts/Clean.ttf'); }*/        
+
+@font-face
+{
+    font-family : "TradeGothicLTStd-Bold";
+    src: url('TradeGothicLTStd-Bold.woff');
+}
+        
+body { margin:0px; padding: 0px;font-family: "news-gothic-std-1","news-gothic-std-2",sans-serif; background: #181818 url(Images/financial_screen_bg.jpg) no-repeat; background-size: 100% 100%, auto; height: 100%; width: 100%;}
+header  
+{
+    /*font-family: "atrament-web-1" , "atrament-web-2"; */
+         font-size: 30px; 
+        font-family : "TradeGothicLTStd-Bold";
+        font-weight:bold;
+         }
+
+#main { height: 100%; width: 100%; display: block; position:absolute; background: #292828 url(Images/financial_screen_bg.jpg) no-repeat; background-size: 100% 100%, auto;}
+#main, body{ -o-background-size: 100% 100%, auto;}
+#main, body{ -moz-background-size: 100% 100%, auto;}
+#main, body{ -webkit-background-size: 100% 100%, auto;}
+        
+#container {width: 1260px; margin: auto; border: 0px solid #fff; }
+#container #header { padding-bottom: 0px; height:68px; width: 1180px; margin: auto; position:relative;  font-family : "TradeGothicLTStd-Bold"; font-size: 30px;}
+#container #header input[type=button] {float: right; margin-top: 25px; }
+#container #content { position:relative; margin: auto; margin-left:0px; height:562px; width: 1180px;  overflow: hidden; } 
+#container #left { float: left; background: url(Images/left_arrow.png) no-repeat; vertical-align:middle;}
+#container #right { float: right; background: url(Images/right_arrow.png) no-repeat; vertical-align:middle;}
+
+.scroller { height: 105px; margin: 75px 0px 0px; width: 40px; display:none; }
+.scroller:hover {cursor: pointer}
+
+#cloudButton, #gridButton{opacity: 1;}
+
+#aaglogo { display: none; clear: none; position: relative; left: 3px; top: 4px; }
+#aagTopRight { display: block; clear: none; position:absolute; right: 3px; top: 3px; }
+#aagTopRight #buttons {margin-top: 19px;}
+#aagTopRight #buttons .enabled {opacity:.2;}
+#aagTopRight #buttons .enabled:hover {cursor:pointer}
+
+       
+.Left 
+{
+    float:left;
+    width:45%;
+    text-align:left;   
+}
+        
+.Right 
+{
+    float:right;
+    width:45%;
+    text-align:right;
+    display: block;
+}
+        
+.LeftIndent
+{
+    float:left;
+    width:70%;
+    margin-left:22px;
+}  
+        
+.RightIndent
+{
+    float:right;
+    width:22%;
+    margin: 0px 10px 0px 0px;
+    text-align:right;
+}
+   
+.Clear
+{
+    margin-top:10px;
+    clear:both;
+}
+        
+.Bold
+{
+    font-weight:bold;
+}
+        
+.Even
+{
+    background-color: #efefef;
+}
+
+.odd, .even{margin-bottom: 25px;}        
+
+.Security
+{
+    font-size: 10pt;
+    margin-left:15px;
+}        
+
+
+/* Ticker styles */
+
+.Marquee
+{
+    background-color: rgba(137, 137, 137, 0.3);
+}
+
+#MarqueeNews, #MarqueeQuotes {
+	position:relative;
+	height:22px;
+	width:100%;
+	display:block;
+	overflow:hidden;
+	}
+	
+div.scrollingtext {
+	position:absolute;
+	white-space:nowrap;
+	font-family: "news-gothic-std-1","news-gothic-std-2",sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	color: White;
+	padding-top: 3px;
+	bottom: 3px;
+}
+
+#ticker { display:none;}
+
+.TickerQuoteContainer { color: White; }
+.TickerLast { color:#fff }
+
+
+#MarqueeNewsTitle{ background-color:#1D5083;
+                    color:#eaeaea;
+                    float:left;
+                    font-weight:bold;
+                    height:22px;
+                    margin-top:-44px;
+                    padding:0 12px;
+                    position:absolute;
+                    width:50px;
+                    vertical-align:middle;
+                    font-family : "TradeGothicLTStd-Bold";
+                    display:block;
+                    font-size: 14pt;
+                    border-bottom: 1px solid #619CD9;
+                   }
+#MarqueeQuotesTitle{ background-color:#2C79C7;
+                     color: #eaeaea ;
+                    float:left;
+                    font-weight:bold;
+                    height:22px;
+                    margin-top:-22px;
+                    padding:0 12px;
+                    position:absolute;
+                    width:50px;
+                    vertical-align:middle;
+                    font-family : "TradeGothicLTStd-Bold";
+                    display:block;
+                    font-size: 14pt;
+                     }
+#topRightImage{display: block; clear: none; position:absolute; right: 77px; top: 10px;}

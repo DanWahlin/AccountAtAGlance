@@ -1,0 +1,11 @@
+﻿<script id="TickerTemplate_News" type="text/x-jquery-tmpl">
+    {{each(i,news) News}}${ news }&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{/each}}    
+</script>
+
+<script id="TickerTemplate_Quotes" type="text/x-jquery-tmpl">
+    {{each(i,market) Markets}}
+        <span style="margin-left:3px;">${ market.Symbol }</span>&nbsp;
+        <span class="TickerLast">${ market.Last }</span>&nbsp;
+        <span style="margin-right:10px;" class="{{if parseFloat(Change) > 0}}Positive{{else}}Negative{{/if}}">{{if parseFloat(Change) > 0}}+{{else}}-{{/if}}${ Change }</span>
+    {{/each}} 
+</script>

@@ -1,0 +1,50 @@
+﻿@{
+    ViewBag.Title = "Account At A Glance";
+}
+
+<div id="container">       
+    <div id="header">
+       <div id="aaglogo">
+            <img src="/Content/Images/aag_logo.png" />
+        </div>
+        <div id="aagTopRight">
+            <img id="topRightImage" src="/Content/Images/aag_top_right.png" />
+            <div id="buttons">
+                <img id="gridButton" disabled class="unselected" src="/Content/Images/grid.png" />
+                <img id="cloudButton" class="enabled"  src="/Content/Images/cloud.png"  />
+            </div>
+        </div>
+    </div>        
+    <div id="left" class="scroller"></div>
+    <div id="right" class="scroller"></div>
+    <div id="content"></div>
+    <div id="ticker">
+        <div class="Marquee">
+            <div id="MarqueeNews">
+	            <div id="MarqueeNewsText" class="scrollingtext" />
+            </div>
+        </div>
+        <div class="Marquee">
+            <div id="MarqueeQuotes">
+	            <div id="MarqueeQuotesText" class="scrollingtext" />
+            </div>
+        </div>
+        <div id="MarqueeNewsTitle">News</div>
+        <div id="MarqueeQuotesTitle">Ticker</div>
+    </div>
+</div>
+
+
+<script id="TickerTemplate_News" type="text/x-handlebars-template">
+    {{#each News}}{{this}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{/each}}    
+</script>
+
+<script id="TickerTemplate_Quotes" type="text/x-handlebars-template">
+    {{#each Markets}}
+        <span style="margin-left:3px;">{{Symbol}}</span>&nbsp;
+        <span class="TickerLast">{{Last}}</span>&nbsp;
+        <span style="margin-right:10px;" 
+           class="{{getChangeCSSClass Change}}">
+           {{addPlus Change}}{{Change}}</span>
+    {{/each}} 
+</script>
