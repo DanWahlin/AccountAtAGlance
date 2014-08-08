@@ -29,3 +29,14 @@ Visual Studio 2013
 ## Getting Started:
 
 Open the AccountAtAGlance.sln file in Visual Studio 2013 or higher.
+
+## Credits
+
+The initial version of this application was created by:
+
+* Dan Wahlin
+* Jarod Ferguson
+* John Papa
+* Corey Schuman
+
+While the code has changed a lot since the original version I appreciate the initial contributions from these awesome devs!
